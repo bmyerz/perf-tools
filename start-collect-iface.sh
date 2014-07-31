@@ -1,5 +1,5 @@
-samples=$1  # number of samples to take; note you can instead stop all collection with stop-collect-all.sh
-iface_pattern=$2  # e.g., ib0, eth0, ...
+iface_pattern=${1:-ib0}  # e.g., ib0, eth0, ...
+samples=${2:-1800} # number of samples to take; note you can instead stop all collection with stop-collect-all.sh
 
 nodes=`scontrol show hostname $SLURM_NODE_LIST`
 localdir=`pwd`
