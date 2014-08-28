@@ -22,6 +22,7 @@ To stop collection yourself, do
 ```
 
 # If you don't have $SLURM\* set (e.g., not using salloc)
+First run the command. The script sets environment variables for the latest job.
 ```bash
 srun ...
 . source-slurm.sh <jobid>
