@@ -1,5 +1,5 @@
 Performance monitoring tools for Linux clusters.
-Requires SLURM.
+Requires [SLURM](http://slurm.schedmd.com).
 
 # Collect IP interface rates from all nodes
 ```bash
